@@ -32,11 +32,6 @@ const Bg = () => {
                   <img className="triangle" src={triangle} alt="gallery" />
                 </div>
                 <p>File should be .png or .jpg and <br /> less than 5MB</p>
-                {/* <div className="arrow">
-                  <button className="BgRemoverButton" type="submit" name="upload">Upload Image</button>
-                  <img src={arrowLine} alt="arrow" />
-                  <img src={arrow} alt="arrow" />
-                </div> */}
                 <button className="BgRemoverButton addFileButton" type="submit" name="upload">Upload Image
                   <img className="arrowLine" src={arrowLine} alt="arrow" />
                   <img className="arrow" src={arrow} alt="arrow" />

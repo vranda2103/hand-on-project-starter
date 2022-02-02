@@ -5,7 +5,7 @@ import rect from './rect.svg';
 
 const Dashboard = () => {
   return (
-    <div>
+    <div className="db">
       <div className='dashboardContainer'>
           
           <div className="purpleRect">
